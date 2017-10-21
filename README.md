@@ -32,13 +32,13 @@
 
 ผมติดตั้ง Packages พวกนี้มาให้แล้ว แต่ถ้าไม่พอสามารถติดตั้งเพิ่มได้เองเลย
 
-* [axios](https://github.com/axios/axios)
+* ✅ [axios](https://github.com/axios/axios)
 
-* [bulma](https://bulma.io/)
+* ✅ [bulma](https://bulma.io/)
 
-* [buefy](https://buefy.github.io/#/)
+* ✅ [buefy](https://buefy.github.io/#/)
 
-* [vue-spinner](https://github.com/greyby/vue-spinner)
+* ✅ [vue-spinner](https://github.com/greyby/vue-spinner)
 
 ## Build Setup
 
