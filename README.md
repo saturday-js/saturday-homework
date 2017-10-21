@@ -1,6 +1,7 @@
 # saturday-homework
 
 > A Vue.js project
+> [https://saturday-js.github.io/saturday-homework](https://saturday-js.github.io/saturday-homework)
 
 ## Build Setup
 
