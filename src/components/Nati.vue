@@ -1,0 +1,74 @@
+<template>
+  <div class="container">
+    
+    <div class="columns">
+      <div class="column is-narrow">
+        <img src="http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg" alt="" width="100px">            
+      </div>
+      <div class="column is-narrow">
+        <h1 class="title is-1">Manchester United</h1>
+        <h2 class="subtitle is-3">2017/18 Squad Numbers</h2>
+      </div>
+    </div>
+    <div class="columns is-multiline">
+      <div v-for="player in players" :key="player.id" class="column is-2">
+        <div class="player">
+          <div class="player-name">
+            {{player.name}}
+          </div>
+          <div class="player-jersey-number">
+            {{player.jerseyNumber}}
+          </div>
+          <!-- {{player.position}} -->
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import axios from 'axios'
+
+export default {
+  data () {
+    return {
+      players: []
+    }
+  },
+  created () {
+    this.getData()
+  },
+  methods: {
+    getData () {
+      axios.get('http://api.football-data.org/v1/teams/66/players', {
+        headers: {
+          'X-Auth-Token': 'be99f135fe2d4c8b8dc2300d921becd6',
+          'X-Response-Control': 'minified'
+        }
+      }).then((response) => {
+        this.players = response.data.players
+      })
+    }
+  }
+}
+</script>
+
+<style scoped>
+.player {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.player-name {
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+  background: #F00;
+}
+.player-jersey-number {
+  font-size: 80px;
+  text-align: center;
+  color: #FFF;
+  background: #F00;
+}
+</style>
