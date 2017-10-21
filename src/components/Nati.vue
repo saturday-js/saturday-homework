@@ -19,14 +19,16 @@
     
     <div class="columns is-multiline">
       <div v-for="player in filterPlayers" :key="player.id" class="column is-2">
-        <div class="player">
-          <div class="player-name">
-            {{player.name}}
+        <a :href="`//en.wikipedia.org/wiki/${player.name}`" target="_blank">
+          <div class="player">
+            <div class="player-name">
+              {{player.name}}
+            </div>
+            <div class="player-jersey-number">
+              {{player.jerseyNumber}}
+            </div>
           </div>
-          <div class="player-jersey-number">
-            {{player.jerseyNumber}}
-          </div>
-        </div>
+        </a>
       </div>
     </div>
     
@@ -114,6 +116,12 @@ export default {
   color: #FFF;
   background: #F00;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.player:hover {
+  box-shadow: 0 10px 18px -9px rgba(0,21,56,.43);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
 }
 .player-name {
   padding-top: 10px;
