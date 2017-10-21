@@ -24,9 +24,13 @@
 
 ## A collective list of public JSON APIs
 
+เข้าไปหา Public APIs ได้ที่นี่
+
 > [https://github.com/toddmotto/public-apis](https://github.com/toddmotto/public-apis)
 
 ## Pre installed packages
+
+ผมติดตั้ง Packages พวกนี้มาให้แล้ว แต่ถ้าไม่พอสามารถติดตั้งเพิ่มได้เองเลย
 
 * [axios](https://github.com/axios/axios)
 
