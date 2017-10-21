@@ -39,13 +39,23 @@ export default {
   },
   methods: {
     getData () {
-      axios.get('http://api.football-data.org/v1/teams/66/players', {
+      axios.get('http://api.football-data.org/v1/teams/66/playersx', {
         headers: {
           'X-Auth-Token': 'be99f135fe2d4c8b8dc2300d921becd6',
           'X-Response-Control': 'minified'
         }
       }).then((response) => {
         this.players = response.data.players
+      }).catch((error) => {
+        this.showErrorMsg(error.message)
+      })
+    },
+    showErrorMsg (error) {
+      this.$toast.open({
+        duration: 5000,
+        message: `${error}`,
+        position: 'is-top',
+        type: 'is-danger'
       })
     }
   }
