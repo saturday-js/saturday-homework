@@ -1,4 +1,4 @@
-# 👩‍💻 👨‍💻 Saturday homework
+# 👩‍💻 👨‍💻 Saturday homework [![Build Status](https://travis-ci.org/saturday-js/saturday-homework.svg?branch=master)](https://travis-ci.org/saturday-js/saturday-homework)
 
 > [https://saturday-js.github.io/saturday-homework](https://saturday-js.github.io/saturday-homework)
 
