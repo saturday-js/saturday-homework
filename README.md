@@ -1,6 +1,5 @@
 # saturday-homework
 
-> A Vue.js project
 > [https://saturday-js.github.io/saturday-homework](https://saturday-js.github.io/saturday-homework)
 
 ## A collective list of public JSON APIs
