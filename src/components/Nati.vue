@@ -3,7 +3,7 @@
     
     <div class="columns">
       <div class="column is-narrow">
-        <img src="http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg" alt="" width="100px">            
+        <img src="//upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg" alt="" width="100px">            
       </div>
       <div class="column is-narrow">
         <h1 class="title is-1">Manchester United</h1>
@@ -68,7 +68,7 @@ export default {
   },
   methods: {
     getData () {
-      axios.get('http://api.football-data.org/v1/teams/66/players', {
+      axios.get('//api.football-data.org/v1/teams/66/players', {
         headers: {
           'X-Auth-Token': 'be99f135fe2d4c8b8dc2300d921becd6',
           'X-Response-Control': 'minified'

@@ -10,11 +10,13 @@
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "test": "npm run unit",
-    "lint": "eslint --ext .js,.vue src test/unit/specs"
+    "lint": "eslint --ext .js,.vue src test/unit/specs",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.16.2",
     "buefy": "^0.5.4",
+    "gh-pages": "^1.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vue-spinner": "^1.0.3"
