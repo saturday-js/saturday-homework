@@ -10,6 +10,7 @@
         <h2 class="subtitle is-3">2017/18 Squad Numbers</h2>
       </div>
     </div>
+
     <div class="columns is-multiline">
       <div v-for="player in players" :key="player.id" class="column is-2">
         <div class="player">
@@ -22,17 +23,27 @@
         </div>
       </div>
     </div>
+    
+    <div v-if="isLoading" class="has-text-centered">
+      <br><br><br><br>
+      <pulse-loader :loading="true" :color="'#F00'"></pulse-loader>
+    </div>
   </div>
 </template>
 
 <script>
 import axios from 'axios'
+import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
 
 export default {
   data () {
     return {
+      isLoading: true,
       players: []
     }
+  },
+  components: {
+    PulseLoader
   },
   created () {
     this.getData()
@@ -45,16 +56,18 @@ export default {
           'X-Response-Control': 'minified'
         }
       }).then((response) => {
+        this.isLoading = false
         this.players = response.data.players
       }).catch((error) => {
+        this.isLoading = false
         this.showErrorMsg(error.message)
       })
     },
     showErrorMsg (error) {
       this.$toast.open({
-        duration: 5000,
+        duration: 1000 * 60 * 20,
         message: `${error}`,
-        position: 'is-top',
+        position: 'is-bottom',
         type: 'is-danger'
       })
     }
