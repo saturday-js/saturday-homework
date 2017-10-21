@@ -11,8 +11,14 @@
       </div>
     </div>
 
+    <input v-if="players.length > 0" v-model="q" class="input-search" placeholder="Search players">
+    
+    <div v-if="isPlayersNotFound" class="has-text-centered">
+      <h1 class="title is-1">☹️</h1>
+    </div>
+    
     <div class="columns is-multiline">
-      <div v-for="player in players" :key="player.id" class="column is-2">
+      <div v-for="player in filterPlayers" :key="player.id" class="column is-2">
         <div class="player">
           <div class="player-name">
             {{player.name}}
@@ -38,6 +44,7 @@ import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
 export default {
   data () {
     return {
+      q: '',
       isLoading: true,
       players: []
     }
@@ -48,9 +55,20 @@ export default {
   created () {
     this.getData()
   },
+  computed: {
+    isPlayersNotFound () {
+      return this.q !== '' && this.filterPlayers.length === 0
+    },
+    filterPlayers () {
+      let regexp = new RegExp(this.q.toLowerCase(), 'g')
+      return this.players.filter(player => {
+        return regexp.test(player.name.toLowerCase()) || regexp.test(player.jerseyNumber)
+      }).sort((a, b) => a.jerseyNumber - b.jerseyNumber)
+    }
+  },
   methods: {
     getData () {
-      axios.get('http://api.football-data.org/v1/teams/66/playersx', {
+      axios.get('http://api.football-data.org/v1/teams/66/players', {
         headers: {
           'X-Auth-Token': 'be99f135fe2d4c8b8dc2300d921becd6',
           'X-Response-Control': 'minified'
@@ -76,12 +94,26 @@ export default {
 </script>
 
 <style scoped>
+.input-search {
+  font-size: 60px;
+  border: 0px;
+  padding: 10px;
+  margin-bottom: 40px;
+  color: #999;
+}
+.input-search:focus {
+  outline:0;
+  }
+.input-search::-webkit-input-placeholder {
+  color: #EEE;
+}
 .player {
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
   color: #FFF;
   background: #F00;
+  cursor: pointer;
 }
 .player-name {
   padding-top: 10px;
