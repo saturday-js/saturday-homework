@@ -19,7 +19,6 @@
           <div class="player-jersey-number">
             {{player.jerseyNumber}}
           </div>
-          <!-- {{player.position}} -->
         </div>
       </div>
     </div>
@@ -57,18 +56,15 @@ export default {
 .player {
   border-radius: 10px;
   overflow: hidden;
+  text-align: center;
+  color: #FFF;
+  background: #F00;
 }
 .player-name {
   padding-top: 10px;
   font-size: 20px;
-  text-align: center;
-  color: #FFF;
-  background: #F00;
 }
 .player-jersey-number {
   font-size: 80px;
-  text-align: center;
-  color: #FFF;
-  background: #F00;
 }
 </style>
