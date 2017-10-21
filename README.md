@@ -14,7 +14,7 @@
 
 > [https://saturday-js.github.io/saturday-homework/#/](https://saturday-js.github.io/saturday-homework/#/)
 
-ตัวอย่างหน้าที่ผมทำไว้ให้ดู
+ตัวอย่างหน้าที่ผมทำไว้ให้ดูเป็นตัวอย่าง
 
 > [https://saturday-js.github.io/saturday-homework/#/nati](https://saturday-js.github.io/saturday-homework/#/nati)
 
