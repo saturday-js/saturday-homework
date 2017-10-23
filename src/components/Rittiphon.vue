@@ -45,6 +45,11 @@
                {{hero.attack_type}}
             </td>
           </tr>
+          <tr>
+            <td colspan="2">
+              <a :href="`//dota2.com/hero/${hero.name.substring(14)}`" target="_blank">ดูเพิ่มเติม </a>
+            </td>
+          </tr>
         
          
         </table>
