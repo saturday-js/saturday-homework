@@ -37,7 +37,7 @@
           <td>5806021610028</td>
           <td>กวิน เรืองรักษ์ลิขิต</td>
           <td>
-            <router-link to="/kawin">Gif Search</router-link>
+            <router-link to="/kawin">Gif search</router-link>
           </td>
         </tr>
       </tbody>
