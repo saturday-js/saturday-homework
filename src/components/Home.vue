@@ -26,6 +26,13 @@
             <router-link to="/Rachata">Giphy Search</router-link>
           </td>
         </tr>
+        <tr>
+          <td>5806021622140</td>
+          <td>ฤทธิพร โพธิ์อรุณ</td>
+          <td>
+            <router-link to="/Rittiphon">Dota 2 Heroes</router-link>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
