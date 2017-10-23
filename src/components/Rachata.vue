@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      <img src="https://www.inboxsdk.com/images/logos/giphy.png" width="200px">
+      <img src="//www.inboxsdk.com/images/logos/giphy.png" width="200px">
       <p class="title is-4">Giphy Search gif</p>
       <center>
          <input type="text" v-model="query" class="input primary outline" style="width : 50%">
@@ -25,7 +25,7 @@ export default {
     }
   },
   created () {
-    fetch('http://api.giphy.com/v1/gifs/search?q=hello&api_key=259P1wkSOIVS3bOLvH4Ve8t38Pt4uTN5')
+    fetch('//api.giphy.com/v1/gifs/search?q=hello&api_key=259P1wkSOIVS3bOLvH4Ve8t38Pt4uTN5')
     .then((res) => { return res.json() })
     .then((res) => {
       this.gifs = res.data
@@ -36,7 +36,7 @@ export default {
     Search () {
       this.gifs = []
       this.loading = true
-      fetch('http://api.giphy.com/v1/gifs/search?q=' + this.query + '&api_key=259P1wkSOIVS3bOLvH4Ve8t38Pt4uTN5')
+      fetch('//api.giphy.com/v1/gifs/search?q=' + this.query + '&api_key=259P1wkSOIVS3bOLvH4Ve8t38Pt4uTN5')
     .then((res) => { return res.json() })
     .then((res) => {
       this.gifs = res.data
