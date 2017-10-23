@@ -14,7 +14,7 @@
     <div class="column is-4 box" v-for="(hero,index) in heroStr">
     <div @click="clickImage(index,'0')" :class="className(index, '0')">
      <p >{{hero.localized_name}}</p>
-    <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png`" >
+    <img  :src="`//cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png`" >
     </div>
     </div>
     </div>
@@ -28,7 +28,7 @@
       <div class="column is-4 box" v-for="(hero,index) in heroAgi">
         <div @click="clickImage(index,'1')" :class="className(index, '1')">
      <p >{{hero.localized_name}}</p>
-    <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png`" >
+    <img  :src="`//cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png`" >
         </div>
     </div>
     </div>
@@ -42,7 +42,7 @@
       <div class="column is-4 box" v-for="(hero,index) in heroInt">
         <div @click="clickImage(index,'2')" :class="className(index, '2')">
      <p >{{hero.localized_name}}</p>
-    <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png`" >
+    <img  :src="`//cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png`" >
         </div>
     
     </div>
