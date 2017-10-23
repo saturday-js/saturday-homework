@@ -45,8 +45,7 @@ export default {
       project: 'THE MOVIES',
       sub: 'Movies is Comming',
       movies: [],
-      detail: [],
-      isLoading: true
+      detail: []
     }
   },
   created () {
@@ -60,7 +59,6 @@ export default {
     getData () {
       axios.get('//api.themoviedb.org/3/movie/upcoming?page=1&language=en-US&api_key=' + apiKey)
       .then((response) => {
-        this.isLoading = false
         this.movies = response.data.results
       })
     }
