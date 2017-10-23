@@ -26,13 +26,6 @@
             <router-link to="/Rachata">Giphy Search</router-link>
           </td>
         </tr>
-        <tr>
-          <td>5806021610028</td>
-          <td>กวิน เรืองรักษ์ลิขิต</td>
-          <td>
-            <router-link to="/kawin">Gif Search</router-link>
-          </td>
-        </tr>
       </tbody>
     </table>
   </div>
