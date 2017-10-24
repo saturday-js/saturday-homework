@@ -23,7 +23,7 @@
           <td>5806021622051</td>
           <td>รชต ทองภักดี</td>
           <td>
-            <router-link to="/Rachata">Giphy Search</router-link>
+            <router-link to="/Rachata">Find Location From ip Address</router-link>
           </td>
         </tr>
         <tr>
