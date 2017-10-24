@@ -1,12 +1,14 @@
 <template>
-  <div id="app">
+  <div class="container" id="app">
     <section class="section">
       <router-view/>
     </section>
+
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'app'
 }
@@ -16,4 +18,7 @@ export default {
 body {
   overflow-x: hidden;
 }
+#app {
+    padding-top: 20px
+  }
 </style>
