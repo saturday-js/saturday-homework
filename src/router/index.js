@@ -5,7 +5,6 @@ import Nati from '@/components/Nati'
 import Sillawat from '@/components/Sillawat'
 import Rittiphon from '@/components/Rittiphon'
 import Rachata from '@/components/Rachata'
-import Rachata2 from '@/components/Rachata2'
 import kawin from '@/components/kawin'
 Vue.use(Router)
 
