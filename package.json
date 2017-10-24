@@ -18,7 +18,8 @@
     "buefy": "^0.5.4",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "vue-spinner": "^1.0.3"
+    "vue-spinner": "^1.0.3",
+    "vue2-google-maps": "^0.8.4"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
