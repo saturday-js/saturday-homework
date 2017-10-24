@@ -11,7 +11,7 @@
     
          <center v-if="heroId !== ''"> 
       <div class="column is-4 box">
-        <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png`" > <br>
+        <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png?v=4195662?v=4195662`" > <br>
         <table class="table">
           <tr>
             <td>
@@ -68,7 +68,7 @@
     <div class="column is-4 box" v-for="(hero,index) in heroStr" :key="index">
     <div @click="clickImage(index,'0')" :class="className(index, '0')">
      <p >{{hero.localized_name}}</p>
-    <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png`" >
+    <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png?v=4195662?v=4195662`" >
     </div>
     </div>
     </div>
@@ -82,7 +82,7 @@
       <div class="column is-4 box" v-for="(hero,index) in heroAgi" :key="index">
         <div @click="clickImage(index,'1')" :class="className(index, '1')">
      <p >{{hero.localized_name}}</p>
-    <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png`" >
+    <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png?v=4195662?v=4195662`" >
         </div>
     </div>
     </div>
@@ -96,7 +96,7 @@
       <div class="column is-4 box" v-for="(hero,index) in heroInt" :key="index">
         <div @click="clickImage(index,'2')" :class="className(index, '2')">
      <p >{{hero.localized_name}}</p>
-    <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png`" >
+    <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png?v=4195662?v=4195662`" >
         </div>
     
     </div>

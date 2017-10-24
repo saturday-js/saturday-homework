@@ -30,7 +30,7 @@
           <td>5806021622051</td>
           <td>รชต ทองภักดี</td>
           <td>
-            <router-link to="/Rachata">Giphy Search</router-link>
+            <router-link to="/Rachata">Find Location From ip Address</router-link>
           </td>
         </tr>
         <tr>
@@ -38,6 +38,13 @@
           <td>ฤทธิพร โพธิ์อรุณ</td>
           <td>
             <router-link to="/Rittiphon">Dota 2 Heroes</router-link>
+          </td>
+        </tr>
+        <tr>
+          <td>5806021610028</td>
+          <td>กวิน เรืองรักษ์ลิขิต</td>
+          <td>
+            <router-link to="/kawin">Gif search</router-link>
           </td>
         </tr>
       </tbody>
