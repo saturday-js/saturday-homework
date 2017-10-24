@@ -33,6 +33,14 @@
             <router-link to="/Rittiphon">Dota 2 Heroes</router-link>
           </td>
         </tr>
+        <tr>
+          <td>5806021612039</td>
+          <td>ศิรินันท์  การบรรจง</td>
+          <td>
+            <router-link to="/Sirinun">Sports News </router-link>
+          </td>
+        </tr>
+
       </tbody>
     </table>
   </div>
