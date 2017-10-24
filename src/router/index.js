@@ -24,6 +24,7 @@ export default new Router({
       name: 'Sillawat',
       component: Sillawat
     },
+    {
       path: '/rittiphon',
       name: 'Rittiphon',
       component: Rittiphon
