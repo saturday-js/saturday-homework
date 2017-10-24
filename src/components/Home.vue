@@ -19,6 +19,13 @@
             <router-link to="/nati">Manchester United 2017/18 Squad Numbers.</router-link>
           </td>
         </tr>
+        <tr>
+          <td>5806021630126</td>
+          <td>พีรพล สวัสดี</td>
+          <td>
+            <router-link to="/Fuse">World Time.</router-link>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
