@@ -12,7 +12,7 @@
     <div v-if="isPlayersNotFound" class="has-text-centered">
       <h1 class="title is-1">☹️</h1>
       <h1 class="title is-1">Not Found!</h1>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
     </div>
     <div class="columns is-multiline">
       <div v-for="result in filterMuscles" :key="result.id" class="column is-3">
