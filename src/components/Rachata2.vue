@@ -51,8 +51,7 @@ import Vue from 'vue'
 import * as VueGoogleMaps from 'vue2-google-maps'
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyAdTt1CEiELNaqxvQl7sgeHnpy9VskiosY',
-    v: 'OPTIONAL VERSION NUMBER'
+    key: 'AIzaSyAdTt1CEiELNaqxvQl7sgeHnpy9VskiosY'
   }
 })
 export default {
@@ -69,7 +68,7 @@ export default {
   },
   created () {
     fetch('//ipapi.co/json/')
-    .then((res) => { return res.json() })
+    .then((res) => res.json())
     .then((res) => {
       this.location = res
     })
@@ -77,7 +76,7 @@ export default {
   methods: {
     find () {
       fetch('//ipapi.co/' + this.ip + '/json/')
-      .then((res) => { return res.json() })
+      .then((res) => res.json())
       .then((res) => {
         this.foundLocation = res
         this.center.lat = this.foundLocation.latitude
@@ -86,8 +85,6 @@ export default {
         this.markers[0].position.lng = this.foundLocation.longitude
       })
     }
-  },
-  computed: {
   }
 }
 </script>
