@@ -4,7 +4,6 @@ import Home from '@/components/Home'
 import Nati from '@/components/Nati'
 import Rittiphon from '@/components/Rittiphon'
 import Rachata from '@/components/Rachata'
-import Sirinun from '@/components/Sirinun'
 
 Vue.use(Router)
 
@@ -29,11 +28,6 @@ export default new Router({
       path: '/Rachata',
       name: 'Rachata',
       component: Rachata
-    },
-    {
-      path: '/Sirinun',
-      name: 'Sirinun',
-      component: Sirinun
     }
   ]
 })
