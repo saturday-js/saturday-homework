@@ -3,8 +3,8 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Nati from '@/components/Nati'
 import Rittiphon from '@/components/Rittiphon'
-import Rachata from '@/components/Rachata'
-
+import Rachata from '@/components/Rachata2'
+import kawin from '@/components/kawin'
 Vue.use(Router)
 
 export default new Router({
@@ -28,6 +28,11 @@ export default new Router({
       path: '/Rachata',
       name: 'Rachata',
       component: Rachata
+    },
+    {
+      path: '/kawin',
+      name: 'kawin',
+      component: kawin
     }
   ]
 })
