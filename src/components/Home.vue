@@ -19,6 +19,13 @@
             <router-link to="/nati">Manchester United 2017/18 Squad Numbers.</router-link>
           </td>
         </tr>
+        <tr>
+          <td>5806021631041</td>
+          <td>ณัฐพล ไชยภา</td>
+          <td>
+            <router-link to="/jack">Hero of storm.</router-link>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
