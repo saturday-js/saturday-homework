@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Nati from '@/components/Nati'
+import Sillawat from '@/components/Sillawat'
 import Rittiphon from '@/components/Rittiphon'
 import Sahapat from '@/components/Sahapat'
 import Rachata from '@/components/Rachata2'
@@ -20,6 +21,11 @@ export default new Router({
       path: '/nati',
       name: 'Nati',
       component: Nati
+    },
+    {
+      path: '/Sillawat',
+      name: 'Sillawat',
+      component: Sillawat
     },
     {
       path: '/rittiphon',
