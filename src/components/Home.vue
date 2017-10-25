@@ -19,6 +19,13 @@
             <router-link to="/nati">Manchester United 2017/18 Squad Numbers.</router-link>
           </td>
         </tr>
+        <tr>
+          <td>5806021633010</td>
+          <td>ชลธิชา สูริผัส</td>
+          <td>
+            <router-link to="/Chonticha">Review Dink</router-link>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
