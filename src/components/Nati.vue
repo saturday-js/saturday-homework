@@ -130,3 +130,5 @@ export default {
 .player-jersey-number {
   font-size: 80px;
 }
+
+</style>
