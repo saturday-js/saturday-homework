@@ -16,143 +16,79 @@
     </div>
     <div class="columns is-multiline">
       <div v-for="result in filterMuscles" :key="result.id" class="column is-3">
-
           <div class="player">
-
+            <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
             <div class="player-name">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <p style="font-family: 'Times New Roman';font-size: 30px;color: blue;">
+              <p style="font-family: 'Times New Roman';font-size: 30px;color: blue;">
                   {{result.id}}.{{result.name}}
                 </p>
+                <img v-if="result.name == 'Biceps brachii'" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Biceps_brachii.png/250px-Biceps_brachii.png" alt="" width="200px">
+                <img v-if="result.name == 'Anterior deltoid'" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Deltoideus.png" alt="" width="200px">
+                <img v-if="result.name == 'Serratus anterior'" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Serratus_anterior.png/250px-Serratus_anterior.png" alt="" width="200px">
+                <img v-if="result.name == 'Pectoralis major'" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pectoralis_major.png/120px-Pectoralis_major.png" alt="" width="200px">
+                <img v-if="result.name == 'Triceps brachii'" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Triceps_brachii.png" alt="" width="200px">
+                <img v-if="result.name == 'Rectus abdominis'" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Rectus_abdominis.png" alt="" width="200px">
+                <img v-if="result.name == 'Gastrocnemius'" src="https://www.physiospot.com/wp-content/uploads/2014/05/Gastrocnemius-e1504116626905.png" alt="" width="200px">
+                <img v-if="result.name == 'Gluteus maximus'" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Gluteus_maximus.png" alt="" width="200px">
+                <img v-if="result.name == 'Trapezius'" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Trapezius.png/250px-Trapezius.png" alt="" width="200px">
+                <img v-if="result.name == 'Quadriceps femoris'" src="http://bodybuilding-wizard.com/wp-content/uploads/2014/12/quadriceps-anatomy.jpg" alt="" width="200px">
+                <img v-if="result.name == 'Biceps femoris'" src="http://www.cram.com/images/upload-flashcards/921975/679576_m.png" alt="" width="200px">
+                <img v-if="result.name == 'Latissimus dorsi'" src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Latissimus_dorsi.png" alt="" width="200px">
+                <img v-if="result.name == 'Brachialis'" src="https://static1.squarespace.com/static/560aab3be4b02465d41010de/t/58c2c6e9414fb50164f9c352/1489159913478/biceps-brachii-brachialis-brachioradialis.jpeg?format=1500w" alt="" width="200px">
+                <img v-if="result.name == 'Obliquus externus abdominis'" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Gray395.png/220px-Gray395.png" alt="" width="200px">
+                <img v-if="result.name == 'Soleus'" src="http://palpate.com.au/wp-content/uploads/2016/11/Soleus.jpg" alt="" width="200px">
+            </div>
+          </a>
+          <div>
+            <br>
+              <a v-if="result.name == 'Biceps brachii'" :href="`http://www.muscle.in.th/exercise/biceps`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-            <div  v-if="result.name == 'Biceps brachii'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Biceps_brachii.png/250px-Biceps_brachii.png" alt="" width="200px">
+              <a v-if="result.name == 'Anterior deltoid'" :href="`http://www.muscle.in.th/exercise/shoulders`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-             <div  v-if="result.name == 'Anterior deltoid'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Deltoideus.png" alt="" width="200px">
+              <a v-if="result.name == 'Serratus anterior'" :href="`http://www.muscle.in.th/exercise/abdominal/twisting-sit-up`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-             <div  v-if="result.name == 'Serratus anterior'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Serratus_anterior.png/250px-Serratus_anterior.png" alt="" width="200px">
+              <a v-if="result.name == 'Pectoralis major'" :href="`http://www.muscle.in.th/exercise/chest`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-            <div  v-if="result.name == 'Pectoralis major'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pectoralis_major.png/120px-Pectoralis_major.png" alt="" width="200px">
+              <a v-if="result.name == 'Triceps brachii'" :href="`http://www.muscle.in.th/exercise/triceps`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-            <div  v-if="result.name == 'Triceps brachii'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Triceps_brachii.png" alt="" width="200px">
+              <a v-if="result.name == 'Rectus abdominis'" :href="`http://www.muscle.in.th/exercise/abdominal`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-            <div  v-if="result.name == 'Rectus abdominis'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Rectus_abdominis.png" alt="" width="200px">
+              <a v-if="result.name == 'Gastrocnemius'" :href="`http://www.muscle.in.th/exercise/calves`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-            <div  v-if="result.name == 'Gastrocnemius'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="https://www.physiospot.com/wp-content/uploads/2014/05/Gastrocnemius-e1504116626905.png" alt="" width="200px">
+              <a v-if="result.name == 'Gluteus maximus'" :href="`http://www.muscle.in.th/exercise/legs`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-            <div  v-if="result.name == 'Gluteus maximus'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Gluteus_maximus.png" alt="" width="200px">
+              <a v-if="result.name == 'Trapezius'" :href="`http://planforfit.com/5-%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%9D%E0%B8%B6%E0%B8%81-%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%87/`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-            <div  v-if="result.name == 'Trapezius'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Trapezius.png/250px-Trapezius.png" alt="" width="200px">
+              <a v-if="result.name == 'Quadriceps femoris'" :href="`http://www.muscle.in.th/exercise/legs`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-            <div  v-if="result.name == 'Quadriceps femoris'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="http://bodybuilding-wizard.com/wp-content/uploads/2014/12/quadriceps-anatomy.jpg" alt="" width="200px">
+              <a v-if="result.name == 'Biceps femoris'" :href="`http://www.muscle.in.th/exercise/biceps`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-             <div  v-if="result.name == 'Biceps femoris'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="http://www.cram.com/images/upload-flashcards/921975/679576_m.png" alt="" width="200px">
+              <a v-if="result.name == 'Latissimus dorsi'" :href="`http://www.muscle.in.th/exercise/back/dumbbell-row`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-             <div  v-if="result.name == 'Latissimus dorsi'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Latissimus_dorsi.png" alt="" width="200px">
+              <a v-if="result.name == 'Brachialis'" :href="`http://www.muscle.in.th/exercise/biceps/hammer-curl`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-             <div  v-if="result.name == 'Brachialis'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="https://static1.squarespace.com/static/560aab3be4b02465d41010de/t/58c2c6e9414fb50164f9c352/1489159913478/biceps-brachii-brachialis-brachioradialis.jpeg?format=1500w" alt="" width="200px">
+              <a v-if="result.name == 'Obliquus externus abdominis'" :href="`http://planforfit.com/4-%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%97%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87/`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-             <div  v-if="result.name == 'Obliquus externus abdominis'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Gray395.png/220px-Gray395.png" alt="" width="200px">
+              <a v-if="result.name == 'Soleus'" :href="`http://www.muscle.in.th/exercise/calves/standing-calf-raise`" target="_blank">
+                <button class="buttonss">How to play?</button>
               </a>
-            </div>
-             <div  v-if="result.name == 'Soleus'">
-              <a :href="`//en.wikipedia.org/wiki/${result.name}`" target="_blank">
-                <img src="http://palpate.com.au/wp-content/uploads/2016/11/Soleus.jpg" alt="" width="200px">
-              </a>
-            </div>
-            <div>
-              <br>
-                <a v-if="result.name == 'Biceps brachii'" :href="`http://www.muscle.in.th/exercise/biceps`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Anterior deltoid'" :href="`http://www.muscle.in.th/exercise/shoulders`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Serratus anterior'" :href="`http://www.muscle.in.th/exercise/abdominal/twisting-sit-up`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Pectoralis major'" :href="`http://www.muscle.in.th/exercise/chest`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Triceps brachii'" :href="`http://www.muscle.in.th/exercise/triceps`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Rectus abdominis'" :href="`http://www.muscle.in.th/exercise/abdominal`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Gastrocnemius'" :href="`http://www.muscle.in.th/exercise/calves`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Gluteus maximus'" :href="`http://www.muscle.in.th/exercise/legs`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Trapezius'" :href="`http://planforfit.com/5-%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%9D%E0%B8%B6%E0%B8%81-%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%87/`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Quadriceps femoris'" :href="`http://www.muscle.in.th/exercise/legs`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Biceps femoris'" :href="`http://www.muscle.in.th/exercise/biceps`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Latissimus dorsi'" :href="`http://www.muscle.in.th/exercise/back/dumbbell-row`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Brachialis'" :href="`http://www.muscle.in.th/exercise/biceps/hammer-curl`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Obliquus externus abdominis'" :href="`http://planforfit.com/4-%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%97%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87/`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-                <a v-if="result.name == 'Soleus'" :href="`http://www.muscle.in.th/exercise/calves/standing-calf-raise`" target="_blank">
-                  <button class="buttonss">How to play?</button>
-                </a>
-
-              <br><br>
-            </div>
+            <br><br>
           </div>
-
+        </div>
       </div>
     </div>
   </div>
@@ -166,8 +102,7 @@ export default {
   data () {
     return {
       q: '',
-      results: [],
-      imm: 'biceps'
+      results: []
     }
   },
   components: {
