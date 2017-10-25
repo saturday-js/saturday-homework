@@ -19,7 +19,7 @@
             <router-link to="/nati">Manchester United 2017/18 Squad Numbers.</router-link>
           </td>
         </tr>
-<<<<<<< master
+ master
 
         <tr>
           <td>5806021631017</td>
@@ -29,7 +29,7 @@
           </td>
         </tr>
 
-=======
+
         <tr>
           <td>5806021630151</td>
           <td>ศิลวัต ลีลาศ</td>
@@ -58,7 +58,7 @@
             <router-link to="/kawin">Gif search</router-link>
           </td>
         </tr>
->>>>>>> master
+ master
       </tbody>
     </table>
   </div>
