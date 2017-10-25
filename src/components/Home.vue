@@ -20,12 +20,13 @@
           </td>
         </tr>
         <tr>
-<<<<<<< HEAD
           <td>5806021623065</td>
           <td>สิริรัตน์ ปราชญ์พิริยะ</td>
           <td>
             <router-link to="/sirirat">car</router-link>
-=======
+            </td>
+            </tr>
+            <tr>
           <td>5806021630151</td>
           <td>ศิลวัต ลีลาศ</td>
           <td>
@@ -51,7 +52,6 @@
           <td>กวิน เรืองรักษ์ลิขิต</td>
           <td>
             <router-link to="/kawin">Gif search</router-link>
->>>>>>> 7447e89f4582290c04cae6d6ffc21adef71a303f
           </td>
         </tr>
       </tbody>
