@@ -51,7 +51,7 @@
         <tr>
           <td>5806021620082</td>
           <td>เบญจรงค์ เรืองศิลป์ </td>
-          <td>
+          <td><router-link to="/benjarong">dog</router-link></td>
         </tr>
       </tbody>
     </table>
