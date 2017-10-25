@@ -45,7 +45,8 @@
           <td>5806021631033</td>
           <td>ณัฐกิตติ์ จะมะนุ</td>
           <td>
-            <router-link to="/nuttakit">Nuttakit EiEi.</router-link>
+            <router-link to="/nuttakit">Guide to bodybuilder</router-link>
+            </td>
         </tr>
       </tbody>
     </table>
