@@ -2,14 +2,11 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Nati from '@/components/Nati'
-<<<<<<< HEAD
 import Nuttakit from '@/components/Nuttakit'
-
-=======
 import Rittiphon from '@/components/Rittiphon'
 import Rachata from '@/components/Rachata2'
 import kawin from '@/components/kawin'
->>>>>>> upstream/master
+
 Vue.use(Router)
 
 export default new Router({
@@ -25,11 +22,11 @@ export default new Router({
       component: Nati
     },
     {
-<<<<<<< HEAD
       path: '/nuttakit',
       name: 'Nuttakit',
       component: Nuttakit
-=======
+    },
+    {
       path: '/rittiphon',
       name: 'Rittiphon',
       component: Rittiphon
@@ -43,7 +40,6 @@ export default new Router({
       path: '/kawin',
       name: 'kawin',
       component: kawin
->>>>>>> upstream/master
     }
   ]
 })
