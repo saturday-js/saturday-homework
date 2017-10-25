@@ -20,7 +20,6 @@
           </td>
         </tr>
         <tr>
-          <router-link to="/benjarong">dogs</router-link>
           <td>5806021630151</td>
           <td>ศิลวัต ลีลาศ</td>
           <td>
