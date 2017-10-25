@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-
     <div class="columns">
       <div class="column is-narrow">
         <img src="//upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg" alt="" width="100px">
