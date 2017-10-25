@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Nati from '@/components/Nati'
+import kanyaruk from '@/components/kanyaruk'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/nati',
       name: 'Nati',
       component: Nati
+    },
+    {
+      path: '/kanyaruk',
+      name: 'kanyaruk',
+      component: kanyaruk
     }
   ]
 })

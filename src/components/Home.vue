@@ -19,6 +19,15 @@
             <router-link to="/nati">Manchester United 2017/18 Squad Numbers.</router-link>
           </td>
         </tr>
+
+        <tr>
+          <td>5806021631017</td>
+          <td>กัญญารัก เอี้ยงลักขะ</td>
+          <td>
+            <router-link to="/kanyaruk">AhmKanyaruk.</router-link>
+          </td>
+        </tr>
+
       </tbody>
     </table>
   </div>
