@@ -5,7 +5,7 @@ import Nati from '@/components/Nati'
  master
 import kanyaruk from '@/components/kanyaruk'
 
-=======
+
 import Sillawat from '@/components/Sillawat'
 import Rittiphon from '@/components/Rittiphon'
 import Rachata from '@/components/Rachata'
@@ -30,7 +30,7 @@ export default new Router({
       path: '/kanyaruk',
       name: 'kanyaruk',
       component: kanyaruk
-=======
+
       path: '/Sillawat',
       name: 'Sillawat',
       component: Sillawat
