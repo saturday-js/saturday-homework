@@ -5,23 +5,23 @@
       <p class="title is-4">DOG</p>
   <center>
          <!-- <select class="input primary outline"> -->
-            <button value="AFFENPINSCHER" @click="changeApi('https://dog.ceo/api/breed/affenpinscher/images')">AFFENPINSCHER</button>
-            <button value="AFRICAN" @click="changeApi('https://dog.ceo/api/breed/african/images')">AFRICAN</button>
-            <button value="AIREDALE" @click="changeApi('https://dog.ceo/api/breed/airedale/images')">AIREDALE</button>
-            <button value="AKITA" @click="changeApi('https://dog.ceo/api/breed/akita/images')">AKITA</button>
-            <button value="APPENZELLER" @click="changeApi('https://dog.ceo/api/breed/appenzeller/images')">APPENZELLER</button>
-            <button value="BASENJI" @click="changeApi('https://dog.ceo/api/breed/basenji/images')">BASENJI</button>
-            <button value="BEAGLE" @click="changeApi('https://dog.ceo/api/breed/beagle/images')">BEAGLE</button>
-            <button value="BORZOI" @click="changeApi('https://dog.ceo/api/breed/borzoi/images')">BORZOI</button>
-            <button value="BOUVIER" @click="changeApi('https://dog.ceo/api/breed/bouvier/images')">BOUVIER</button>
-            <button value="BOXER" @click="changeApi('https://dog.ceo/api/breed/boxer/images')">BOXER</button>
+            <button value="AFFENPINSCHER"  class="button is-small"@click="changeApi('https://dog.ceo/api/breed/affenpinscher/images')">AFFENPINSCHER</button>
+            <button value="AFRICAN"  class="button is-small"@click="changeApi('https://dog.ceo/api/breed/african/images')">AFRICAN</button>
+            <button value="AIREDALE"  class="button is-small"@click="changeApi('https://dog.ceo/api/breed/airedale/images')">AIREDALE</button>
+            <button value="AKITA"  class="button is-small"@click="changeApi('https://dog.ceo/api/breed/akita/images')">AKITA</button>
+            <button value="APPENZELLER"  class="button is-small"@click="changeApi('https://dog.ceo/api/breed/appenzeller/images')">APPENZELLER</button>
+            <button value="BASENJI" class="button is-small" @click="changeApi('https://dog.ceo/api/breed/basenji/images')">BASENJI</button>
+            <button value="BEAGLE"  class="button is-small"@click="changeApi('https://dog.ceo/api/breed/beagle/images')">BEAGLE</button>
+            <button value="BORZOI" class="button is-small" @click="changeApi('https://dog.ceo/api/breed/borzoi/images')">BORZOI</button>
+            <button value="BOUVIER"  class="button is-small"@click="changeApi('https://dog.ceo/api/breed/bouvier/images')">BOUVIER</button>
+            <button value="BOXER"  class="button is-small"@click="changeApi('https://dog.ceo/api/breed/boxer/images')">BOXER</button>
          <!-- </select> -->
 
       <div class="hero-body">
         <img :src=dogs[showPic]  > </br></br>
       </div>
 
-      <button type="button"@click="random()" class="columns is-multiline">More of this breed</button>
+      <button type="button"@click="random()"class="button is-danger is-outlined">>More of this breed</button>
 
     </center>
   </div>
