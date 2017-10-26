@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    
+
     <div class="columns">
       <div class="column is-narrow">
-        <img src="//upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg" alt="" width="100px">            
+        <img src="//upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg" alt="" width="100px">
       </div>
       <div class="column is-narrow">
         <h1 class="title is-1">Manchester United</h1>
@@ -12,11 +12,11 @@
     </div>
 
     <input v-if="players.length > 0" v-model="q" class="input-search" placeholder="Search players">
-    
+
     <div v-if="isPlayersNotFound" class="has-text-centered">
       <h1 class="title is-1">☹️</h1>
     </div>
-    
+
     <div class="columns is-multiline">
       <div v-for="player in filterPlayers" :key="player.id" class="column is-2">
         <a :href="`//en.wikipedia.org/wiki/${player.name}`" target="_blank">
@@ -31,7 +31,7 @@
         </a>
       </div>
     </div>
-    
+
     <div v-if="isLoading" class="has-text-centered">
       <br><br><br><br>
       <pulse-loader :loading="true" :color="'#F00'"></pulse-loader>

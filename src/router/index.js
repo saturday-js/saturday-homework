@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Nati from '@/components/Nati'
+import nanthawad from '@/components/nanthawad'
 import Fuse from '@/components/Fuse'
 import jack from '@/components/jack'
 import benjarong from '@/components/benjarong'
@@ -25,6 +26,11 @@ export default new Router({
       path: '/nati',
       name: 'Nati',
       component: Nati
+    },
+    {
+      path: '/nanthawad',
+      name: 'nanthawad',
+      component: nanthawad
     },
     {
       path: '/Fuse',
