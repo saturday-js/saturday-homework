@@ -5,8 +5,10 @@ import Nati from '@/components/Nati'
 import benjarong from '@/components/benjarong'
 import Sillawat from '@/components/Sillawat'
 import Rittiphon from '@/components/Rittiphon'
-import Rachata from '@/components/Rachata'
+import Sahapat from '@/components/Sahapat'
+import Rachata from '@/components/Rachata2'
 import kawin from '@/components/kawin'
+
 Vue.use(Router)
 export default new Router({
   routes: [
@@ -34,6 +36,11 @@ export default new Router({
       path: '/Rachata',
       name: 'Rachata',
       component: Rachata
+    },
+    {
+      path: '/Sahapat',
+      name: 'Sahapat',
+      component: Sahapat
     },
     {
       path: '/kawin',
