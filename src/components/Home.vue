@@ -20,10 +20,6 @@
             <router-link to="/nati">Manchester United 2017/18 Squad Numbers.</router-link>
           </td>
         </tr>
-<<<<<<< HEAD
-
-=======
->>>>>>> 1ceff803eea5c88fc7a20c7371b09ac99df3eab4
         <tr>
           <td>5806021631017</td>
           <td>กัญญารัก เอี้ยงลักขะ</td>
@@ -31,23 +27,13 @@
             <router-link to="/kanyaruk">AhmKanyaruk.</router-link>
           </td>
         </tr>
-<<<<<<< HEAD
-
-=======
->>>>>>> 1ceff803eea5c88fc7a20c7371b09ac99df3eab4
         <tr>
           <td>5806021623065</td>
           <td>สิริรัตน์ ปราชญ์พิริยะ</td>
           <td>
             <router-link to="/sirirat">car</router-link>
-<<<<<<< HEAD
-          </td>
-        </tr>
-
-=======
             </td>
         </tr>
->>>>>>> 1ceff803eea5c88fc7a20c7371b09ac99df3eab4
         <tr>
           <td>5806021633010</td>
           <td>ชลธิชา สูริผัส</td>
@@ -144,10 +130,6 @@
             <router-link to="/Sirinun">Sports News </router-link>
           </td>
         </tr>
-<<<<<<< HEAD
-
-=======
->>>>>>> 1ceff803eea5c88fc7a20c7371b09ac99df3eab4
         <tr>
           <td>5806021620082</td>
           <td>เบญจรงค์ เรืองศิลป์ </td>
