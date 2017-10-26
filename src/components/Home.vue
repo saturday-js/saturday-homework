@@ -10,6 +10,9 @@
           <th>รหัสนักศึกษา</th>
           <th>ชื่อ-นามสกุล</th>
           <th>การบ้าน</th>
+          <th>Design</th>
+          <th>Challenge</th>
+          <th>Code quality</th>
         </tr>
       </thead>
       <tbody>
@@ -19,6 +22,9 @@
           <td>
             <router-link to="/nati">Manchester United 2017/18 Squad Numbers.</router-link>
           </td>
+          <td></td>
+          <td></td>
+          <td></td>
         </tr>
         <tr>
           <td>5806021631017</td>
@@ -26,6 +32,9 @@
           <td>
             <router-link to="/kanyaruk">AhmKanyaruk.</router-link>
           </td>
+          <td>F</td>
+          <td>D</td>
+          <td>C</td>
         </tr>
         <tr>
           <td>5806021623065</td>
@@ -33,6 +42,9 @@
           <td>
             <router-link to="/sirirat">car</router-link>
           </td>
+          <td>D</td>
+          <td>D</td>
+          <td>C+</td>
         </tr>
         <tr>
           <td>5806021633010</td>
@@ -40,6 +52,9 @@
           <td>
             <router-link to="/Chonticha">Review Dink</router-link>
           </td>
+          <td>D</td>
+          <td>D</td>
+          <td>C</td>
         </tr>
         <tr>
           <td>5806021631122</td>
@@ -47,6 +62,9 @@
           <td>
             <router-link to="/warakana">Ghibli Studio</router-link>
           </td>
+          <td>D</td>
+          <td>D</td>
+          <td>C</td>
         </tr>
         <tr>
           <td>5806021632013</td>
@@ -54,6 +72,9 @@
           <td>
             <router-link to="/Kittitah">Popular Star Actors</router-link>
           </td>
+          <td>C+</td>
+          <td>D+</td>
+          <td>C+</td>
         </tr>
         <tr>
           <td>5806021622123</td>
@@ -61,6 +82,9 @@
           <td>
             <router-link to="/nanthawad">FIFA WORLD CUP 2014 All Players.</router-link>
           </td>
+          <td>D</td>
+          <td>D</td>
+          <td>D+</td>
         </tr>
         <tr>
           <td>5806021630126</td>
@@ -68,6 +92,9 @@
           <td>
             <router-link to="/Fuse">World Time</router-link>
           </td>
+          <td>C</td>
+          <td>D</td>
+          <td>D</td>
         </tr>
         <tr>
           <td>5806021631041</td>
@@ -75,6 +102,9 @@
           <td>
             <router-link to="/jack">Hero of storm.</router-link>
           </td>
+          <td>C</td>
+          <td>D+</td>
+          <td>D</td>
         </tr>
         <tr>
           <td>5806021630151</td>
@@ -82,6 +112,9 @@
           <td>
             <router-link to="/Sillawat">Movie is Coming</router-link>
           </td>
+          <td>C+</td>
+          <td>C+</td>
+          <td>D+</td>
         </tr>
         <tr>
           <td>5806021622051</td>
@@ -89,6 +122,9 @@
           <td>
             <router-link to="/Rachata">Ip location</router-link>
           </td>
+          <td>D+</td>
+          <td>B</td>
+          <td>C</td>
         </tr>
         <tr>
           <td>5806021610028</td>
@@ -96,6 +132,9 @@
           <td>
             <router-link to="/Kawin">Gifs Search</router-link>
           </td>
+          <td>B</td>
+          <td>B</td>
+          <td>B</td>
         </tr>
         <tr>
           <td>5806021622140</td>
@@ -103,6 +142,9 @@
           <td>
             <router-link to="/Rittiphon">Dota 2 Heroes</router-link>
           </td>
+          <td>D</td>
+          <td>D</td>
+          <td>D</td>
         </tr>
         <tr>
           <td>5806021612047</td>
@@ -110,6 +152,9 @@
           <td>
             <router-link to="/Sahapat">NASA Search image</router-link>
           </td>
+          <td>D</td>
+          <td>B</td>
+          <td>D</td>
         </tr>
         <tr>
           <td>5806021612039</td>
@@ -117,6 +162,9 @@
           <td>
             <router-link to="/Sirinun">Sports News </router-link>
           </td>
+          <td>C</td>
+          <td>D+</td>
+          <td>D</td>
         </tr>
         <tr>
           <td>5806021620082</td>
@@ -124,13 +172,19 @@
           <td>
             <router-link to="/benjarong">dog</router-link>
           </td>
+          <td>D</td>
+          <td>C</td>
+          <td>D</td>
         </tr>
         <tr>
           <td>5806021631033</td>
           <td>ณัฐกิตติ์ จะมะนุ</td>
           <td>
             <router-link to="/nuttakit">Guide to bodybuilder</router-link>
-            </td>
+          </td>
+          <td>F</td>
+          <td>D</td>
+          <td>D</td>
         </tr>
       </tbody>
     </table>
