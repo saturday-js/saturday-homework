@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
+  <div class="container ">
   
-   <div class="columns">
+   <div class="columns" style="margin:10px; padding:30px;">
      <div class="column is-12 box" v-if="heroId === ''">
-       <center > Dota 2 Heroes <br>
-      เลือกฮีโร่
+       <center > <p>Dota 2 Heroes <br>
+      เลือกฮีโร่</p>
       </center>
      </div>
      <div v-if="heroId !== ''" class="column is-12" v-for="hero in selectHero">
@@ -58,15 +58,24 @@
       </center>
        </div>
      </div>
-   <div class="columns box">
+   <div class="columns" >
       
-    <div class="column is-4" style="border-right:1px solid black;">
+    <div class="column is-4 box " style="padding:30px;">
     <div class="column is-12">
-     <center> Hero STR </center>
+      
+  
+     <center style="padding:8px;">
+       
+        <img src="//upic.me/i/p7/p2368.jpg" width='32px'>
+        Hero STR
+         
+      </center>
+       
+       
     </div>
     <div class="columns is-multiline">
-    <div class="column is-4 box" v-for="(hero,index) in heroStr" :key="index">
-    <div @click="clickImage(index,'0')" :class="className(index, '0')">
+    <div  v-for="(hero,index) in heroStr" :key="index" :class="className(index, '0')">
+    <div @click="clickImage(index,'0')" >
      <p >{{hero.localized_name}}</p>
     <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png?v=4195662?v=4195662`" >
     </div>
@@ -74,13 +83,18 @@
     </div>
     </div>
     
-      <div class="column is-4" style="border-right:1px solid black;">
+      <div class="column is-4 box" style="margin-left:10px; margin-right:10px; padding:30px;">
         <div class="column is-12">
-     <center> Hero Agi </center>
+      <p>
+     <center style="padding:8px;"> 
+       <img src="//upic.me/i/yr/j2369.jpg" width='32px'>
+       Hero Agi
+        </center>
+        </p>
     </div>
       <div class="columns is-multiline">
-      <div class="column is-4 box" v-for="(hero,index) in heroAgi" :key="index">
-        <div @click="clickImage(index,'1')" :class="className(index, '1')">
+      <div  v-for="(hero,index) in heroAgi" :key="index" :class="className(index, '1')">
+        <div @click="clickImage(index,'1')" >
      <p >{{hero.localized_name}}</p>
     <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png?v=4195662?v=4195662`" >
         </div>
@@ -88,13 +102,16 @@
     </div>
     </div>
 
-      <div class="column is-4" style="border-right:1px solid black;">
-        <div class="column is-12">
-     <center> Hero Int </center>
+      <div class="column is-4 box" style="padding:30px;">
+        <div class="column is-12"><p>
+     <center style="padding:8px;"> 
+       <img src="//upic.me/i/ca/dota_2___redrawn_intelligence_icon_by_tigerkirby215-d8agdx6.png" width='32px'> 
+       Hero Int </center>
+     </p>
     </div>
       <div class="columns is-multiline">
-      <div class="column is-4 box" v-for="(hero,index) in heroInt" :key="index">
-        <div @click="clickImage(index,'2')" :class="className(index, '2')">
+      <div  v-for="(hero,index) in heroInt" :key="index" :class="className(index, '2')">
+        <div @click="clickImage(index,'2')" >
      <p >{{hero.localized_name}}</p>
     <img  :src="`http://cdn.dota2.com/apps/dota2/images/heroes/${hero.name.substring(14)}_lg.png?v=4195662?v=4195662`" >
         </div>
@@ -143,7 +160,7 @@ export default {
       this.selectHeroes(index, choose)
     },
     className (index, choose) {
-      return [
+      return [ 'column is-4', 'box', 'mouseMove',
                 { 'chosen ': this.heroId === choose + index }
       ]
     },
@@ -161,13 +178,24 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
  .input-text {
      font-size:20px;
      border-radius:3px;
      padding: 10px;
  }
  .chosen {
-   border:2px solid black;
+   background-color:blanchedalmond;
+ }
+ .mouseMove:hover {
+   background-color:bisque;
+   box-shadow: 0 10px 18px -9px rgba(0,21,56,.43);
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+ }
+ .background-dota2 {
+   background-color:#272526;
+ }
+ p {
  }
 </style>
