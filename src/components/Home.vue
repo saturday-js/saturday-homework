@@ -33,6 +33,13 @@
             <router-link to="/Rittiphon">Dota 2 Heroes</router-link>
           </td>
         </tr>
+        <tr>
+          <td>5706021622019</td>
+          <td>กฤตนัย สุขยืนยง</td>
+          <td>
+            <router-link to="/Kittanai">Bitcoin price</router-link>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
