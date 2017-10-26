@@ -42,7 +42,6 @@
 <script>
 import axios from 'axios'
 import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
-
 export default {
   data () {
     return {

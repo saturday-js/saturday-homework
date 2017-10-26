@@ -20,7 +20,20 @@
             <router-link to="/nati">Manchester United 2017/18 Squad Numbers.</router-link>
           </td>
         </tr>
-
+        <tr>
+          <td>5806021631017</td>
+          <td>กัญญารัก เอี้ยงลักขะ</td>
+          <td>
+            <router-link to="/kanyaruk">AhmKanyaruk.</router-link>
+          </td>
+        </tr>
+        <tr>
+          <td>5806021623065</td>
+          <td>สิริรัตน์ ปราชญ์พิริยะ</td>
+          <td>
+            <router-link to="/sirirat">car</router-link>
+            </td>
+        </tr>
         <tr>
           <td>5806021633010</td>
           <td>ชลธิชา สูริผัส</td>
