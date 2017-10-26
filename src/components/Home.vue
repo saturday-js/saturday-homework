@@ -20,6 +20,13 @@
           </td>
         </tr>
         <tr>
+          <td>5806021631122</td>
+          <td>วราคณา ปั้นทอง</td>
+          <td>
+          <router-link to="/warakana">Ghibli Studio</router-link>
+        </td>
+      </tr>
+      <tr>
           <td>5806021632013</td>
           <td>กิตติธัช เพิ่มรุ่งเรือง</td>
           <td>
