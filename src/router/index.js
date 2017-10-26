@@ -2,9 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Nati from '@/components/Nati'
-<<<<<<< HEAD
 import Nuttakit from '@/components/Nuttakit'
-=======
 import Chonticha from '@/components/Chonticha'
 import warakana from '@/components/warakana'
 import Kittitah from '@/components/Kittitah'
@@ -13,7 +11,6 @@ import Fuse from '@/components/Fuse'
 import jack from '@/components/jack'
 import benjarong from '@/components/benjarong'
 import Sillawat from '@/components/Sillawat'
->>>>>>> upstream/master
 import Rittiphon from '@/components/Rittiphon'
 import Sirinun from '@/components/Sirinun'
 import Sahapat from '@/components/Sahapat'
@@ -35,11 +32,11 @@ export default new Router({
       component: Nati
     },
     {
-<<<<<<< HEAD
       path: '/nuttakit',
       name: 'Nuttakit',
       component: Nuttakit
-=======
+    },
+    {
       path: '/Chonticha',
       name: 'Chonticha',
       component: Chonticha
@@ -70,10 +67,14 @@ export default new Router({
       component: jack
     },
     {
+      path: '/nuttakit',
+      name: 'Nuttakit',
+      component: Nuttakit
+    },
+    {
       path: '/Sillawat',
       name: 'Sillawat',
       component: Sillawat
->>>>>>> upstream/master
     },
     {
       path: '/rittiphon',
