@@ -37,7 +37,7 @@
           <td>5806021622051</td>
           <td>รชต ทองภักดี</td>
           <td>
-            <router-link to="/Rachata">Find Location From ip Address</router-link>
+            <router-link to="/Rachata">Giphy Search</router-link>
           </td>
         </tr>
         <tr>
@@ -55,10 +55,10 @@
           </td>
         </tr>
         <tr>
-          <td>5806021610028</td>
-          <td>กวิน เรืองรักษ์ลิขิต</td>
+          <td>5806021612039</td>
+          <td>ศิรินันท์  การบรรจง</td>
           <td>
-            <router-link to="/kawin">Gif search</router-link>
+            <router-link to="/Sirinun">Sports News </router-link>
           </td>
         </tr>
         <tr>

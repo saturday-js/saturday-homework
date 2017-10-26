@@ -6,6 +6,7 @@ import jack from '@/components/jack'
 import benjarong from '@/components/benjarong'
 import Sillawat from '@/components/Sillawat'
 import Rittiphon from '@/components/Rittiphon'
+import Sirinun from '@/components/Sirinun'
 import Sahapat from '@/components/Sahapat'
 import Rachata from '@/components/Rachata2'
 import kawin from '@/components/kawin'
@@ -53,6 +54,11 @@ export default new Router({
       path: '/kawin',
       name: 'kawin',
       component: kawin
+    },
+    {
+      path: '/Sirinun',
+      name: 'Sirinun',
+      component: Sirinun
     },
     {
       path: '/benjarong',
