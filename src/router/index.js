@@ -16,7 +16,6 @@ import Sirinun from '@/components/Sirinun'
 import Sahapat from '@/components/Sahapat'
 import Rachata from '@/components/Rachata2'
 import kawin from '@/components/kawin'
- 
 Vue.use(Router)
 
 export default new Router({
