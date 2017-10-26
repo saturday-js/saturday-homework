@@ -20,7 +20,8 @@
           <div class="box" style=" background: #B4B8E9">
               <img :src="c.urlToImage" alt=""><br><br>
               {{c.title}}
-              <a :href="c.url">See more</a><br><br>
+              <a :href="c.url">See more</a>
+              <br><br>
           </div>
       </div>
   </div>
