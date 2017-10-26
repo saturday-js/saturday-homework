@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Nati from '@/components/Nati'
+import Nuttakit from '@/components/Nuttakit'
 import kanyaruk from '@/components/kanyaruk'
 import sirirat from '@/components/sirirat'
 import Chonticha from '@/components/Chonticha'
@@ -30,6 +31,11 @@ export default new Router({
       path: '/nati',
       name: 'Nati',
       component: Nati
+    },
+    {
+      path: '/nuttakit',
+      name: 'Nuttakit',
+      component: Nuttakit
     },
     {
       path: '/kanyaruk',
