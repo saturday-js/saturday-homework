@@ -19,8 +19,7 @@ import kawin from '@/components/kawin'
  
 Vue.use(Router)
 
-export default new Router(
-  {
+export default new Router({
   routes: [
     {
       path: '/',
