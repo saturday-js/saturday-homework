@@ -20,6 +20,10 @@
           </td>
         </tr>
         <tr>
+          <td>5806021632013</td>
+          <td>กิตติธัช เพิ่มรุ่งเรือง</td>
+          <td>
+            <router-link to="/Kittitah">Popular Star Actors</router-link>
           <td>5806021622123</td>
           <td>นันทวัฒน์ พรหมศร</td>
           <td>
