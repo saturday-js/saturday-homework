@@ -20,6 +20,11 @@
           </td>
         </tr>
         <tr>
+          <td>5806021630126</td>
+          <td>พีรพล สวัสดี</td>
+          <td>
+            <router-link to="/Fuse">World Time</router-link>
+        </tr>
           <td>5806021631041</td>
           <td>ณัฐพล ไชยภา</td>
           <td>
