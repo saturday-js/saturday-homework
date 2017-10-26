@@ -4,21 +4,22 @@
     <h3 class="title">Popular Star Search</h3>
       <div class="control">
         <input v-model="key" class="input-search " placeholder="Search Name"> <br>
-        <div class="columns "  align="center">
+        <div class="columns"  align="center">
           <div class="columns is-multiline is-narrow" >
-            <div v-for = "r in filterName" class="column is-one-third" >
-              <img :src="`//image.tmdb.org/t/p/w640${r.profile_path}`" alt="" width="300px">
+            <div  v-for = "r in filterName" >
+              <img :src="`//image.tmdb.org/t/p/w640${r.profile_path}`" alt="" width="400px">
               <br>
               <h1 class="title">{{r.name}}</h1>
               <h2 class="subtitle">Popularity : {{r.popularity}}</h2>
               <b>Movies :</b><p v-for="k in r.known_for">{{k.title}}</p>
               <hr>
+              </div>
+             </div>
             </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>
