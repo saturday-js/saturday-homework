@@ -2,9 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Nati from '@/components/Nati'
- master
- master
- master
+
 import kanyaruk from '@/components/kanyaruk'
 
 
@@ -14,20 +12,15 @@ import warakana from '@/components/warakana'
 import Kittitah from '@/components/Kittitah'
 import nanthawad from '@/components/nanthawad'
 import Fuse from '@/components/Fuse'
- master
 import jack from '@/components/jack'
 import benjarong from '@/components/benjarong'
- master
 import Sillawat from '@/components/Sillawat'
 import Rittiphon from '@/components/Rittiphon'
 import Sirinun from '@/components/Sirinun'
 import Sahapat from '@/components/Sahapat'
 import Rachata from '@/components/Rachata2'
 import kawin from '@/components/kawin'
- master
-master
-
- master
+ 
 Vue.use(Router)
 
 export default new Router({
@@ -43,13 +36,11 @@ export default new Router({
       component: Nati
     },
     {
- master
- master
       path: '/kanyaruk',
       name: 'kanyaruk',
       component: kanyaruk
-
-
+    },
+    {
       path: '/Chonticha',
       name: 'Chonticha',
       component: Chonticha
@@ -75,11 +66,9 @@ export default new Router({
       component: Fuse
     },
     {
- master
       path: '/jack',
       name: 'jack',
       component: jack
- master
     },
     {
       path: '/Sillawat',
