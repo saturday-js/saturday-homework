@@ -24,6 +24,8 @@
           <td>กิตติธัช เพิ่มรุ่งเรือง</td>
           <td>
             <router-link to="/Kittitah">Popular Star Actors</router-link>
+          </td>
+        <tr>
           <td>5806021622123</td>
           <td>นันทวัฒน์ พรหมศร</td>
           <td>
@@ -35,6 +37,7 @@
           <td>พีรพล สวัสดี</td>
           <td>
             <router-link to="/Fuse">World Time</router-link>
+          </td>
         </tr>
           <td>5806021631041</td>
           <td>ณัฐพล ไชยภา</td>
@@ -80,7 +83,9 @@
         <tr>
           <td>5806021620082</td>
           <td>เบญจรงค์ เรืองศิลป์ </td>
-          <td><router-link to="/benjarong">dog</router-link></td>
+          <td>
+            <router-link to="/benjarong">dog</router-link>
+          </td>
         </tr>
       </tbody>
     </table>
