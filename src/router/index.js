@@ -67,11 +67,6 @@ export default new Router({
       component: jack
     },
     {
-      path: '/nuttakit',
-      name: 'Nuttakit',
-      component: Nuttakit
-    },
-    {
       path: '/Sillawat',
       name: 'Sillawat',
       component: Sillawat
