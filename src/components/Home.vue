@@ -20,6 +20,13 @@
           </td>
         </tr>
         <tr>
+          <td>5806021633010</td>
+          <td>ชลธิชา สูริผัส</td>
+          <td>
+            <router-link to="/Chonticha">Review Dink</router-link>
+           </td>
+        </tr>
+        <tr> 
           <td>5806021631122</td>
           <td>วราคณา ปั้นทอง</td>
           <td>
