@@ -7,14 +7,13 @@
       <img src="https://i.pinimg.com/originals/ab/57/4b/ab574b22e6cb86f8b6cd67fc302a224b.png" alt="" width="250px">
       </div>
 
-
       <div class="column is-narrow">
-          <div class="wn">
+        <div class="wn">
         <br>
         <h1 class="title is-1">WORLD NEWS</h1>
       </div>
-</div>
-</div>
+      </div>
+    </div>
 
         <center>
       <input v-model="q" class="input-search" placeholder="Search Here">
@@ -24,10 +23,6 @@
         <!-- <h1 class="title is-1">☹️</h1>-->
       </div>
     </center>
-
-
-
-
 
       <div class="columns is-multiline">
         <div v-for="source in filterPlayers" :key="source.id" class="column is-2">
@@ -88,8 +83,6 @@ export default {
 </script>
 
 <style>
-
-
 .input-search {
   font-size: 60px;
   border: 10px;
@@ -99,7 +92,6 @@ export default {
 }
 .input-search:focus {
   outline:50;
-
   }
 .input-search::-webkit-input-placeholder {
   color: #ECE;
@@ -129,19 +121,13 @@ export default {
   font-size: 20px;
   color:#f44a07;
   font-family : Impact;
-
-
 }
   .wn{
-
     font-size: 70px;
-
   }
 
 .b{
 
   background: #359569;
 }
-
-
 </style>
