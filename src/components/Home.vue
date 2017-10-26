@@ -20,7 +20,7 @@
             <router-link to="/nati">Manchester United 2017/18 Squad Numbers.</router-link>
           </td>
         </tr>
- master
+
 
         <tr>
           <td>5806021631017</td>
@@ -108,8 +108,7 @@
             <router-link to="/Sirinun">Sports News </router-link>
           </td>
         </tr>
- master
- master
+ 
 
         <tr>
           <td>5806021620082</td>
@@ -118,7 +117,7 @@
             <router-link to="/benjarong">dog</router-link>
           </td>
         </tr>
- master
+
       </tbody>
     </table>
   </div>
