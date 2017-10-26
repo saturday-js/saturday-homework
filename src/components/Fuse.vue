@@ -48,7 +48,7 @@ export default {
   },
   methods: {
     getData () {
-      axios.get('http://api.timezonedb.com/v2/list-time-zone?key=8F5PQB57SSLP&format=json'
+      axios.get('https://api.timezonedb.com/v2/list-time-zone?key=8F5PQB57SSLP&format=json'
       )
       .then((response) => {
         this.isLoading = false
