@@ -2,7 +2,8 @@
   <div class="container">
     <h1 class="title is-1">👩‍💻 👨‍💻 Saturday Homeworks.</h1>
     <iframe src="https://ghbtns.com/github-btn.html?user=saturday-js&repo=saturday-homework&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
-    <br><br>
+    <br>
+    <br>
     <table class="table is-striped is-hoverable is-fullwidth">
       <thead>
         <tr>
@@ -20,11 +21,40 @@
           </td>
         </tr>
         <tr>
+          <td>5806021631017</td>
+          <td>กัญญารัก เอี้ยงลักขะ</td>
+          <td>
+            <router-link to="/kanyaruk">AhmKanyaruk.</router-link>
+          </td>
+        </tr>
+        <tr>
+          <td>5806021623065</td>
+          <td>สิริรัตน์ ปราชญ์พิริยะ</td>
+          <td>
+            <router-link to="/sirirat">car</router-link>
+          </td>
+        </tr>
+        <tr>
+          <td>5806021633010</td>
+          <td>ชลธิชา สูริผัส</td>
+          <td>
+            <router-link to="/Chonticha">Review Dink</router-link>
+          </td>
+        </tr>
+        <tr>
+          <td>5806021631122</td>
+          <td>วราคณา ปั้นทอง</td>
+          <td>
+            <router-link to="/warakana">Ghibli Studio</router-link>
+          </td>
+        </tr>
+        <tr>
           <td>5806021632013</td>
           <td>กิตติธัช เพิ่มรุ่งเรือง</td>
           <td>
             <router-link to="/Kittitah">Popular Star Actors</router-link>
           </td>
+        </tr>
         <tr>
           <td>5806021622123</td>
           <td>นันทวัฒน์ พรหมศร</td>
@@ -39,13 +69,14 @@
             <router-link to="/Fuse">World Time</router-link>
           </td>
         </tr>
+        <tr>
           <td>5806021631041</td>
           <td>ณัฐพล ไชยภา</td>
           <td>
             <router-link to="/jack">Hero of storm.</router-link>
           </td>
-         </tr>
-         <tr>
+        </tr>
+        <tr>
           <td>5806021630151</td>
           <td>ศิลวัต ลีลาศ</td>
           <td>
@@ -56,7 +87,14 @@
           <td>5806021622051</td>
           <td>รชต ทองภักดี</td>
           <td>
-            <router-link to="/Rachata">Giphy Search</router-link>
+            <router-link to="/Rachata">Ip location</router-link>
+          </td>
+        </tr>
+        <tr>
+          <td>5806021610028</td>
+          <td>กวิน เรืองรักษลิขิต</td>
+          <td>
+            <router-link to="/Kawin">Gifs Search</router-link>
           </td>
         </tr>
         <tr>
@@ -66,7 +104,7 @@
             <router-link to="/Rittiphon">Dota 2 Heroes</router-link>
           </td>
         </tr>
-         <tr>
+        <tr>
           <td>5806021612047</td>
           <td>สหพัฒ แก้วนิล</td>
           <td>
@@ -75,7 +113,7 @@
         </tr>
         <tr>
           <td>5806021612039</td>
-          <td>ศิรินันท์  การบรรจง</td>
+          <td>ศิรินันท์ การบรรจง</td>
           <td>
             <router-link to="/Sirinun">Sports News </router-link>
           </td>
@@ -86,6 +124,13 @@
           <td>
             <router-link to="/benjarong">dog</router-link>
           </td>
+        </tr>
+        <tr>
+          <td>5806021631033</td>
+          <td>ณัฐกิตติ์ จะมะนุ</td>
+          <td>
+            <router-link to="/nuttakit">Guide to bodybuilder</router-link>
+            </td>
         </tr>
       </tbody>
     </table>
