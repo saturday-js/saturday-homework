@@ -18,6 +18,10 @@
         <div v-for="Hero in filterHeroes" class="column is-2 ">
           <a :href="`https://heroesofthestorm.gamepedia.com/${Hero.PrimaryName}`">
           <div class="Hero" >
+              <div class="picture-hero">
+                  <center><img :src="`https://d1i1jxrdh2kvwy.cloudfront.net/Images/Heroes/Portraits/${Hero.ImageURL}.png`" 
+                    alt="" width="100px" height=""></center>
+                </div>
             <div class="Hero-name">
               <center>Hero : {{Hero.PrimaryName}}</center>
                <div class="m-name">
@@ -117,6 +121,18 @@ export default {
   transform: scale(1.02);
 }
 .input:hover {
+  box-shadow: 0 10px 18px -9px rgba(0,21,56,.43);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+.picture-hero{
+  margin-top: 10px;
+  box-shadow: 0 10px 18px -9px rgba(0,21,56,.43);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  border-radius: 10px;
+}
+.picture-hero:hover {
   box-shadow: 0 10px 18px -9px rgba(0,21,56,.43);
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
