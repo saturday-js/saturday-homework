@@ -82,7 +82,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .input-search {
   font-size: 60px;
   border: 10px;

@@ -178,7 +178,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
  .input-text {
      font-size:20px;
      border-radius:3px;

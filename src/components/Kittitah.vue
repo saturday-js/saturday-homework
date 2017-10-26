@@ -63,7 +63,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .input-search {
   font-size: 20px;
   border-radius: 20px;
