@@ -21,6 +21,13 @@
           </td>
         </tr>
         <tr>
+          <td>5806021623065</td>
+          <td>สิริรัตน์ ปราชญ์พิริยะ</td>
+          <td>
+            <router-link to="/sirirat">car</router-link>
+            </td>
+            </tr>
+            <tr>
           <td>5806021633010</td>
           <td>ชลธิชา สูริผัส</td>
           <td>
