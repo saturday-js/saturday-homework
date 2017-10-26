@@ -2,11 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Nati from '@/components/Nati'
-
 import kanyaruk from '@/components/kanyaruk'
-
-
-
 import Chonticha from '@/components/Chonticha'
 import warakana from '@/components/warakana'
 import Kittitah from '@/components/Kittitah'
@@ -24,8 +20,7 @@ import kawin from '@/components/kawin'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
+  routes: [{
       path: '/',
       name: 'Home',
       component: Home
