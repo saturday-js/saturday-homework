@@ -26,11 +26,11 @@ export default new Router({
       component: Nati
     },
     {
-
       path: '/kanyaruk',
       name: 'kanyaruk',
       component: kanyaruk
-
+    },
+    {
       path: '/Sillawat',
       name: 'Sillawat',
       component: Sillawat
@@ -49,7 +49,6 @@ export default new Router({
       path: '/kawin',
       name: 'kawin',
       component: kawin
-
     }
   ]
 })
