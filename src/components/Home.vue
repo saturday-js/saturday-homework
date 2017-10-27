@@ -192,6 +192,9 @@
           <td>
             <router-link to="/Kittanai">Bitcoin price</router-link>
           </td>
+          <td>D</td>
+          <td>D</td>
+          <td>D+</td>
         </tr>
       </tbody>
     </table>
