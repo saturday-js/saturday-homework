@@ -18,6 +18,7 @@ import Sirinun from '@/components/Sirinun'
 import Sahapat from '@/components/Sahapat'
 import Rachata from '@/components/Rachata2'
 import kawin from '@/components/kawin'
+import Kittanai from '@/components/Kittanai'
 Vue.use(Router)
 
 export default new Router({
@@ -93,6 +94,7 @@ export default new Router({
       component: Rachata
     },
     {
+
       path: '/Sahapat',
       name: 'Sahapat',
       component: Sahapat
@@ -111,6 +113,11 @@ export default new Router({
       path: '/benjarong',
       name: 'benjarong',
       component: benjarong
+    },
+    {
+      path: '/Kittanai',
+      name: 'Kittanai',
+      component: Kittanai
     }
   ]
 })

@@ -186,6 +186,13 @@
           <td>D</td>
           <td>D</td>
         </tr>
+        <tr style="border-top: 2px solid #F00;">
+          <td>5706021622019</td>
+          <td>กฤตนัย สุขยืนยง</td>
+          <td>
+            <router-link to="/Kittanai">Bitcoin price</router-link>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
